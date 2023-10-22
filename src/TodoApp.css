@@ -1,4 +1,4 @@
-.todo-app {
+/* .todo-app {
     max-width: 400px;
     margin: 0 auto;
     text-align: center;
@@ -48,4 +48,103 @@
   li:hover {
     background-color: #ececec;
   }
+   */
+
+
+
+   .todo-app {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
   
+  .todo-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button.add-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.add-button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  li {
+    background-color: #f5f5f5;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  li.completed {
+    background-color: #b6ff00; /* A different color for completed items */
+  }
+  
+  li:hover {
+    background-color: #ececec;
+  }
+  
+  button.remove-button {
+    background-color: #ff3333; /* A different color for Remove button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 5px;
+  }
+  
+  button.remove-button:hover {
+    background-color: #ff0000;
+  }
+  
+  button.remove-all-button {
+    background-color: #ff9933; /* A different color for Remove All button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  button.remove-all-button:hover {
+    background-color: #ff8000;
+  }
+  
+  button.update-button {
+    background-color: #33cc33; /* A different color for Update button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 5px;
+  }
+  
+  button.update-button:hover {
+    background-color: #009900;
+  }
